@@ -2,11 +2,11 @@
 
 Create matrix of covariates from METDATA and NISS data (folder: yield/data_prep)
 
-1. yield/data_prep/create_df_metdata.R and create_timeloc_df.R
-2. yield/data_prep/pwl_model_setup.R
-3. yield/data_prep/normalize_pwl_data.R
-4. yield/data_prep/reorder_by_year.R
-5. yield/data_prep/fpw_multyr_generateSamples.R
+1. create_df_metdata.R and create_timeloc_df.R
+2. pwl_model_setup.R
+3. normalize_pwl_data.R
+4. reorder_by_year.R
+5. fpw_multyr_generateSamples.R
 
 Create matrix of covariates from TopoWX and NISS data (folder: yield/data_prep/TopoWX)
 1. for i in 1986 to 2016, createTmats_i.R
