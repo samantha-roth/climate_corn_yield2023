@@ -138,3 +138,32 @@ foreach(h=remainder)%dopar%{
 #WAIC1<- 2*log(sum_lik/M) - (4/M)*sum_llik
 
 stopCluster(cl)
+
+
+#finish computing WAIC
+
+rm(list=ls())
+
+load("/storage/work/svr5482/Climate_CornYield-me/yield/PICAR/holdLastYear/Crop_allyrs_cfmpwSpatialData.RData")
+load("/storage/work/svr5482/Climate_CornYield-me/SourceData/METDATA/timeloc_yrorder")
+
+setwd("/storage/work/svr5482/Climate_CornYield-me/yield/PICAR/timeConstant/noCIs/cutoff.2/rank20")
+load("samples_cfmpw_allyrs.RData")
+
+N= nrow(XMat)
+N2= 4.9e4
+
+sum_llik0<- 0
+sum_lik0<- 0
+
+for(h in 0:25){
+  load(paste0("/storage/work/svr5482/Climate_CornYield-me/yield/PICAR/timeConstant/noCIs/cutoff.2/rank20/sum_likAndsum_llik",h,".RData"))
+  
+  sum_llik0<- sum_llik0 + sum_llik
+  sum_lik0<- sum_lik0 + sum_lik
+  
+}
+
+WAIC1<- 2*log(sum_lik0/N2) - (4/N2)*sum_llik0
+
+save(WAIC1,file="/storage/work/svr5482/Climate_CornYield-me/yield/PICAR/timeConstant/noCIs/cutoff.2/rank20/WAIC1.RData")
