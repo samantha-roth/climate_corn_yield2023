@@ -29,6 +29,7 @@ Fit CI model using TopoWX temperatures (folder: yield/Bayesian/CI)
 
 Generate mesh over locations and select density using AIC or BIC (folder: yield/PICAR/timeConstant/noCIs)
 1. testMeshes.R
+2. 	testMeshPerformanceCutoff.i.R (for i in 01 to 7) 
 
 Fit PICAR models (folder: yield/PICAR/timeConstant/noCIs)
 1. AIC_PICAR_model.R and BIC_PICAR_model.R
