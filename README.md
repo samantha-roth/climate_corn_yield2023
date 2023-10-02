@@ -36,9 +36,11 @@ Compare performance of PICAR to CI model (folder: yield/compareModels)
 2. computeWAIC.R, computeWAIC_AICPICAR.R, computeWAIC_BICPICAR.R
 3. compareWAICs.R
 4. plotPerformanceComparisons.R
+5. comparePosteriors.R
 
-Compare performance of CI model with METDATA TO CI model with TopoWX data
+Compare performance of CI model with METDATA TO CI model with TopoWX data (folder: yield/compareModels/compareMETtoTWX)
 1. computeWAIC_TWX.R
+2. comparePosteriors.R
 
 Detrend observations
 1. Based on CI model: SRMeanModel_dt.R (folder: yield/Bayesian/CI)
