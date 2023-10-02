@@ -27,6 +27,7 @@ Fit CI model using TopoWX temperatures (folder: yield/Bayesian/CI)
 
 Fit PICAR models (folder: yield/PICAR/timeConstant/noCIs)
 1. AIC_PICAR_model.R and BIC_PICAR_model.R
+2. AIC_PICAR_preds.R and BIC_PICAR_preds.R (make predictions)
 
 Compare performance of PICAR to CI model (folder: yield/compareModels)
 1. compareRMSE.R
