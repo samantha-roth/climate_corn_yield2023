@@ -20,10 +20,12 @@ Create matrix of covariates from TopoWX and NISS data (folder: yield/data_prep/T
 Fit CI model using METDATA temperatures (folder: yield/Bayesian/CI)
 1. SRMeanModel.R (fit model)
 2. CI_preds.R (make predictions)
+3. CI_spatialresults.R
 
 Fit CI model using TopoWX temperatures (folder: yield/Bayesian/CI)
 1. SRMeanModel_TWX.R (fit model)
 2. CI_preds_TWX.R (make predictions)
+3. CI_spatialresultsTWX.R
 
 Fit PICAR models (folder: yield/PICAR/timeConstant/noCIs)
 1. AIC_PICAR_model.R and BIC_PICAR_model.R
