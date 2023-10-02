@@ -31,7 +31,11 @@ Fit PICAR models (folder: yield/PICAR/timeConstant/noCIs)
 
 Compare performance of PICAR to CI model (folder: yield/compareModels)
 1. compareRMSE.R
-2. compareWAICs.R
+2. computeWAIC.R, computeWAIC_AICPICAR.R, computeWAIC_BICPICAR.R
+3. compareWAICs.R
+
+Compare performance of CI model with METDATA TO CI model with TopoWX data
+1. computeWAIC_TWX.R
 
 Detrend observations
 1. Based on CI model: SRMeanModel_dt.R (folder: yield/Bayesian/CI)
