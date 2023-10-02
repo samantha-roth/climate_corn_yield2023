@@ -29,12 +29,12 @@ Fit PICAR models (folder: yield/PICAR/timeConstant/noCIs)
 1. AIC_PICAR_model.R and BIC_PICAR_model.R
 
 Compare performance of PICAR to CI model (folder: yield/compareModels)
-1. 
+1. compareRMSE.R
+2. compareWAICs.R
 
 Detrend observations
 1. Based on CI model: SRMeanModel_dt.R (folder: yield/Bayesian/CI)
 2. Based on BIC model: BIC_PICAR_model_dt.R (folder: yield/PICAR/timeConstant/noCIs)
-3. Based on AIC model: AIC_PICAR_model_dt.R (folder: yield/PICAR/timeConstant/noCIs)
 
 Process climate projections (folder: yield/data_prep)
 1. processFutureNoDelta.R via processFutureNoDelta.pbs
