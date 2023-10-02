@@ -49,6 +49,7 @@ Detrend observations
 Process climate projections (folder: yield/data_prep)
 1. processFutureNoDelta.R via processFutureNoDelta.pbs
 2. processOtherFutureInfo.R
+3. processCornData.R
 
 Evaluate future yield projections (folder: yield/prediction)
 
