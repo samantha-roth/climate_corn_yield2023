@@ -27,6 +27,9 @@ Fit CI model using TopoWX temperatures (folder: yield/Bayesian/CI)
 2. CI_preds_TWX.R (make predictions)
 3. CI_spatialresultsTWX.R
 
+Generate mesh over locations and select density using AIC or BIC (folder: yield/PICAR/timeConstant/noCIs)
+1. testMeshes.R
+
 Fit PICAR models (folder: yield/PICAR/timeConstant/noCIs)
 1. AIC_PICAR_model.R and BIC_PICAR_model.R
 2. AIC_PICAR_preds.R and BIC_PICAR_preds.R (make predictions)
