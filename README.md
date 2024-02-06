@@ -1,5 +1,7 @@
 # climate_corn_yield2023
 
+Process raw data according to: https://github.com/yhaochen/Climate_CornYield/tree/master
+
 Create matrix of covariates from METDATA and NISS data (folder: yield/data_prep)
 1. create_df_metdata.R and create_timeloc_df.R
 2. pwl_model_setup.R
